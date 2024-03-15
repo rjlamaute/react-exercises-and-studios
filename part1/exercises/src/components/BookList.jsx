@@ -1,6 +1,6 @@
 export default function BookList() {
-   let pageTitle = "shrug";
-   let book1 = "google.com";
+   let pageTitle = "Book List";
+   let book1 = "https://m.media-amazon.com/images/I/815GrZMJQcL._AC_UF1000,1000_QL80_.jpg";
    let book2 = "";
    let book3 = "";
 
@@ -10,6 +10,6 @@ export default function BookList() {
          <img src={book1} alt="Nothing here!" />
          <img src={book2} alt="Nothing here!" />
          <img src={book3} alt="Nothing here!" />
-      </div>      
+      </div>
    );
 }
